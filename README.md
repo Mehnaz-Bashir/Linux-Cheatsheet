@@ -18,17 +18,7 @@
 
 📂 **Linux Directory Tree (simplified):**
 
-/
-├── bin (essential commands)
-├── boot (boot loader files)
-├── dev (device files)
-├── etc (config files)
-├── home (user directories)
-│ └── user (your files)
-├── lib (libraries)
-├── tmp (temporary files)
-├── usr (applications, binaries)
-└── var (logs, cache)
+<pre> / ├── bin (essential commands) ├── boot (boot loader files) ├── dev (device files) ├── etc (config files) ├── home (user directories) │ └── user (your files) ├── lib (libraries) ├── tmp (temporary files) ├── usr (applications, binaries) └── var (logs, cache) </pre>
 
 
 ---
@@ -90,14 +80,7 @@
 
 🔑 **File Permission Representation:**
 
--rwxr-xr--
-│ │ │ │
-│ │ │ └── Others
-│ │ └──── Group
-│ └────── Owner
-└──────── File type (- file, d directory)
-
-
+<pre> -rwxr-xr-- │ │ │ │ │ │ │ └── Others │ │ └──── Group │ └────── Owner └──────── File type (- file, d directory) </pre>
 ---
 
 ## 8. System Monitoring & Processes
